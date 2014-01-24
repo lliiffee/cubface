@@ -74,8 +74,8 @@ Template Monster`s Framework Styles
 
 .bs-docs-nav {
   text-shadow: 0 -1px 0 rgba(0,0,0,.15) !important;
-  background-color: #563d7c !important;
-  border-color: #463265 !important;
+  background-color: rgb(9, 41, 67) !important;
+  border-color: rgb(9, 41, 67) !important;
   box-shadow: 0 1px 0 rgba(255,255,255,.1) !important;
 }
 .bs-docs-nav .navbar-collapse {
@@ -85,10 +85,10 @@ Template Monster`s Framework Styles
   color: #fff !important;
 }
 .bs-docs-nav .navbar-nav > li > a {
-  color: #cdbfe3 !important;
+  color: #fff !important;
 }
 .bs-docs-nav .navbar-nav > li > a:hover {
-  color: #fff !important;
+  color: #fee !important;
 }
 .bs-docs-nav .navbar-nav > .active > a,
 .bs-docs-nav .navbar-nav > .active > a:hover {
