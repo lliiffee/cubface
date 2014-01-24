@@ -114,10 +114,10 @@ h5 {
 .divider-vertical {
 height: 50px;
 margin: 0 9px;
-border-right: 1px solid #563d7c;
-border-left: 1px solid #563d7c;
-border-right-color: #563d7c ;
-border-left-color: #463265 ;
+border-right: 1px solid #999999;
+border-left: 1px solid #999999;
+border-right-color: #999999;
+border-left-color: #999999;
 }
 
 /*TM dropdown*/
