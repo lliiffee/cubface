@@ -2215,6 +2215,7 @@
 }
 })(jQuery);
 
+
 ;(function($){$.fn.cameraResume = function() {
 	var wrap = $(this);
 	var elem = $('.camera_src',wrap);
