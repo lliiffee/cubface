@@ -4,26 +4,48 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <link rel="shortcut icon" href="favicon.ico">
 
+	<meta name="description" content="夫肯思">
+	<meta name="keywords" content="夫肯思">
+	<meta name="author" content="夫肯思">
+	<meta name = "format-detection" content = "telephone=no" />
     <title>Four Corners</title>
 
-    <!-- Bootstrap core CSS -->
+    <!--CSS-->
     <link href="css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="css/site.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/camera.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+	<!--JS-->
+    <script src="js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/jquery.ui.totop.js"></script>
+    <script src="js/vendor/jquery.mobilemenu.js"></script>
+    <script src="js/vendor/jquery.equalheights.js"></script>
+    <script src="js/vendor/jquery.easing.1.3.js"></script>
+     
+    <script src="js/sForm.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/superfish.js"></script>
+   	<script src="js/tm-scripts.js"></script>
+   
+   	<script>
+	    $(document).ready(function(){
+	    	alert(jQuery('.camera_wrap'));
+	        jQuery('.camera_wrap').camera();
+	    });
+	</script> 
+	
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="js/vendor/jquery.mobile.customized.min.js"></script>
+	<!--<![endif]-->
+	<!--[if lt IE 9]>
+	    <div style='text-align:center'><a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." /></a></div>  
+	    <script src="assets/assets/js/html5shiv.js"></script> 
+	    <script src="assets/assets/js/respond.min.js"></script>
+	<![endif]-->
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -164,27 +186,6 @@
 		</footer>
 
     </div> <!-- /container -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="js/vendor/bootstrap.min.js"></script>
-    <script src="js/vendor/jquery.ui.totop.js"></script>
-    <script src="js/vendor/jquery.mobilemenu.js"></script>
-    <script src="js/vendor/jquery.equalheights.js"></script>
-    <script src="js/vendor/jquery.easing.1.3.js"></script>
-     
-    <script src="js/sForm.js"></script>
-    <script src="js/camera.js"></script>
-    <script src="js/superfish.js"></script>
-   	<script src="js/tm-scripts.js"></script>
-   
-   	<script>
-	    $(document).ready(function(){
-	        jQuery('.camera_wrap').camera();
-	    });
-	</script> 
 
   </body>
 </html>
