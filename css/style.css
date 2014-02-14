@@ -351,6 +351,8 @@ footer em {
 }
 .centerBox p {
 	/*font: 300 18px/28px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-family: "微软雅黑", "宋体", Arial, 'sans-serif';
+	font-size: 20px;
 	color: #9d9d9d;
 }
 .mainBox {
