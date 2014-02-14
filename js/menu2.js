@@ -1,18 +1,4 @@
 
-function getRootPath(){  
-    //获取当前网址，如： http://localhost:8083/uimcardprj/share/meun.jsp  
-    var curWwwPath=window.document.location.href;  
-    //获取主机地址之后的目录，如： uimcardprj/share/meun.jsp  
-    var pathName=window.document.location.pathname;  
-    var pos=curWwwPath.indexOf(pathName);  
-    //获取主机地址，如： http://localhost:8083  
-    var localhostPaht=curWwwPath.substring(0,pos);  
-    //获取带"/"的项目名，如：/uimcardprj  
-    var projectName=pathName.substring(0,pathName.substr(1).indexOf('/')+1);  
-    //return(localhostPaht+projectName);  
-    return(projectName);  
-}  
-
 $(document).ready(function(){
 	$('head').append('<link rel="stylesheet" href="'+getRootPath()+'/css/tm_docs.css" type="text/css" media="screen">');
 	var menu1='<div id="panel">'
@@ -104,7 +90,14 @@ var menu2= '<div class="container">'
 +		                                    '<li><a href="'+getRootPath()+'/collection/cindex.html">CUBFACE</a></li>'
 +		                               '</ul>'
 +		                            '</li>'
-+		                            '<li><a href="'+getRootPath()+'/pressroom/index.html">新闻中心</a></li>'
++		                            '<li class="sub-menu"><a href="#">新闻中心<span></span></a>'
++		                            	'<ul class="submenu">'
++		                                    '<li><a href="'+getRootPath()+'/pressroom/index.html">新闻发布</a></li>'
++		                                    '<li><a href="'+getRootPath()+'/pressroom/photogallery.html">照相馆</a></li>'
++		                                    '<li><a href="'+getRootPath()+'/pressroom/corpimage.html">企业形象 </a></li>'
++		                                    '<li><a href="'+getRootPath()+'/pressroom/presscontact.html">新闻联系 </a></li>'
++		                               '</ul>'
++		                            '</li>'
 +		                            '<li><a href="'+getRootPath()+'/aftersale/index.html">售后服务</a></li>'
 +		                            '<li><a href="'+getRootPath()+'/contactus/index.html">招聘信息</a></li>'
 +		                            '<li class="sub-menu"><a href="#">在线商城<span></span></a>'

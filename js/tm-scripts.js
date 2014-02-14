@@ -2,7 +2,7 @@
 include('jquery.cookie.js');
 //----Include-Function----
 function include(url){
-  document.write('<script src="js/'+ url + '"></script>'); 
+  document.write('<script src="'+getRootPath()+'/js/'+ url + '"></script>'); 
   return false;
 }
  
