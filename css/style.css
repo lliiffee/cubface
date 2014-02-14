@@ -1426,7 +1426,10 @@ footer em {
 }
 .banner_list li p {
 	color: #ffffff;
-	font: 14px/18px 'sans-serif';
+	font-family: "微软雅黑", "宋体", Arial, 'sans-serif';
+	font-size: 16px;
+	font-weight: bold;
+	/*font: 14px/18px 'sans-serif';*/
 	margin-bottom: 25px;
 }
 .banner_list li:first-child + li {
@@ -2070,6 +2073,7 @@ footer em {
  padding: 73px 43px 70px 44px;
 }
  .banner_list li .title {
+ font-family: "微软雅黑", "宋体", Arial, 'sans-serif';
  font-size: 25px;
  line-height: 1em;
 }
