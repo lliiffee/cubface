@@ -10,28 +10,33 @@
 
     <title>Four Corners</title>
 
-  <!-- Bootstrap core CSS -->
+  	<!--CSS-->
     <link href="../css/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="../css/site.min.css" rel="stylesheet">
- <link href="../css/style.css" rel="stylesheet">
+ 	<link href="../css/style.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="../css/navbar.css" rel="stylesheet">
 
-    <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--JS-->
+    <script src="../js/vendor/jquery-1.10.2.min.js"></script>
+    <script src="../js/vendor/bootstrap.min.js"></script>
+    <script src="../js/vendor/jquery.mobilemenu.js"></script>
+    <script src="../js/menu2.js"></script>
+    <script src="../js/superfish.js"></script>
+    <script src="../js/vendor/jquery.equalheights.js"></script>
+    <script src="../js/vendor/jquery.easing.1.3.js"></script>
 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-    <![endif]-->
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="../js/vendor/jquery.mobile.customized.min.js"></script>
+	<!--<![endif]-->
+	
   </head>
 
   <body>
 
     <div class="container">
 	  
-      		<header id="sub_menu">
+      	<header id="sub_menu">
 		     
 		</header>
       
@@ -55,34 +60,24 @@
       </div>
 
       <hr>
-
-      <footer>
-      	<p class="pull-right"><a href="#" title="回到页顶">Back to top</a></p>
-        <p>&copy; Four Corners 2014</p>
-      </footer>
+      <!--footer-->
+	  <footer>
+	      <div class="container">
+	          <div class="row">
+	              <article class="col-lg-12 col-md-12 col-sm-12">
+	                  <p>&copy; Four Corners 2014</p>
+	                  <div>
+					      <a id="toTop" href="#" style="margin-right: -60px; right: 50%; display: block;">
+					         <span id="toTopHover" style="opacity: 0;"></span>
+					      </a>
+					  </div>
+	              </article>
+	          </div>
+	       </div>
+		   <!-- {%FOOTER_LINK} -->
+	   </footer>
 
     </div> <!-- /container -->
 
-      <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="../js/vendor/bootstrap.min.js"></script>
-    <script src="../js/vendor/jquery.mobilemenu.js"></script>
-    <script src="../js/menu2.js"></script>
-    <script src="../js/superfish.js"></script>
-    
-    
-      <script src="../js/vendor/jquery.ui.totop.js"></script>
-
-    <script src="../js/vendor/jquery.equalheights.js"></script>
-    <script src="../js/vendor/jquery.easing.1.3.js"></script>
-
-     
-    
-        <!--[if (gt IE 9)|!(IE)]><!-->
-    <script src="../js/vendor/jquery.mobile.customized.min.js"></script>
-	<!--<![endif]-->
-  
   </body>
 </html>

@@ -53,9 +53,7 @@ $(document).ready(function() {
 $("#copyright-year").text( (new Date).getFullYear() );
 });
 
-jQuery(function(){
-      jQuery('.sf-menu').mobileMenu();
-    })
+
 $(function(){
 // IPad/IPhone
   var viewportmeta = document.querySelector && document.querySelector('meta[name="viewport"]'),

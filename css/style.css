@@ -56,7 +56,9 @@ h2 span {
 	color: #67999c;
 }
 h3 {
-	color: #383838;
+	font-size: 24px;
+	color: rgb(9, 41, 67);
+	/*color: #383838;*/
 	/*font: 300 30px/48px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	margin: 0 0 24px 0;
 }
@@ -64,7 +66,9 @@ h3 span {
 	color: #67999c;
 }
 h4 {
-	color: #383838;
+	font-size: 18px;
+	color: rgb(170, 139, 60);
+	/*color: #383838;*/
 	/*font: bold 24px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	margin: 0 0 24px 0;
 }
@@ -161,7 +165,7 @@ nav.tm_navbar li a span {
 nav.tm_navbar .sub-menu > ul {
 	position: absolute;
 	display: none;
-	width: 92px;
+	width: 109px;
 	top: 88px;
 	left: 0;
 	list-style: none !important;
