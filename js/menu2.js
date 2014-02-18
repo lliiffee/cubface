@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
 	$('head').append('<link rel="stylesheet" href="'+getRootPath()+'/css/tm_docs.css" type="text/css" media="screen">');
-	var menu1='<div id="panel">'
+	var menu1 = '<div id="panel">'
 +                '<div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner" id="advanced">'
 +                     '<span class="trigger"><strong></strong><em></em></span>'
 +                          '<div class="container">'
@@ -61,8 +61,8 @@ $(document).ready(function(){
 	$('body').prepend(menu1);
  
  
-var menu2= '<div class="container">'
-+  '<div class="row">'
+	var menu2 = '<div class="container">'
++  				'<div class="row">'
 +		            '<article class="col-lg-12 col-md-12 col-sm-12">'
 +		                '<div class="menuBox clearfix">'
 +		                   ' <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">'
@@ -113,9 +113,42 @@ var menu2= '<div class="container">'
 +		       ' </div>'
 +		    '</div>';
 
- $('#sub_menu').append(menu2);
+	var footer1 = '<div class="container">'
++		        	'<div class="row">'
++		            '<article class="col-lg-12 col-md-12 col-sm-12">'
++		                '<ul class="bc-social-buttons">'
++				            '<li>'
++				            	'<a target="_self" title="Four Corners企业简介" href="'+getRootPath()+'aboutus/index.html">'
++									'<img alt="Four Corners企业简介" style="height: 59px;" src="'+getRootPath()+'/img/footlogo_01.png"></img>'
++								'</a>'
++				            '</li>'
++				            '<li>'
++				                '<a target="_blank" title="Four Corners中文网新浪微博" href="http://weibo.com/4corners">'
++				                    '<img alt="Four Corners中文网新浪微博" style="height: 25px;" src="'+getRootPath()+'/img/weibo_icon.jpg"></img>'
++				                '</a>'
++				            '</li>'
++				            '<li>'
++				                '<a target="_blank" title="Four Corners网易博客" href="http://four-corners.blog.163.com/">'
++				                    '<img alt="Four Corners网易博客" style="height: 25px;" src="'+getRootPath()+'/img/163net.png"></img>'
++				                '</a>'
++				            '</li>'
++				        '</ul>'
++		                '<p>&copy; Four Corners 2014 &nbsp;'
++                       '<a href="http://www.miitbeian.gov.cn"> 粤ICP备13008378号-1</a></p>'
++		                '<div>'
++						    '<a id="toTop" href="#" style="margin-right: -60px; right: 50%; display: block;">'
++						        '<span id="toTopHover" style="opacity: 0;"></span>'
++						    '</a>'
++						'</div>'
++		            '</article>'
++		        '</div>'
++		    '</div>';
+
+	$('#sub_menu').append(menu2);
+
+	$('#footer_homepage').append(footer1);
  
- jQuery('.sf-menu').mobileMenu();
+	jQuery('.sf-menu').mobileMenu();
  
 });
 
