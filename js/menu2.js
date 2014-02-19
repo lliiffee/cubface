@@ -133,7 +133,7 @@ $(document).ready(function(){
 +				                '</a>'
 +				            '</li>'
 +				        '</ul>'
-+		                '<p>&copy; Four Corners 2014 &nbsp;'
++		                '<p>&copy; Four Corners 2014<br>'
 +                       '<a href="http://www.miitbeian.gov.cn"> 粤ICP备13008378号-1</a></p>'
 +		                '<div>'
 +						    '<a id="toTop" href="#" style="margin-right: -60px; right: 50%; display: block;">'
