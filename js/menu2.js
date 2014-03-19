@@ -118,7 +118,7 @@ $(document).ready(function(){
 +		            '<article class="col-lg-12 col-md-12 col-sm-12">'
 +		                '<ul class="bc-social-buttons">'
 +				            '<li>'
-+				            	'<a target="_self" title="Four Corners企业简介" href="'+getRootPath()+'aboutus/index.html">'
++				            	'<a target="_self" title="Four Corners企业简介" href="'+getRootPath()+'/aboutus/index.html">'
 +									'<img alt="Four Corners企业简介" style="height: 59px;" src="'+getRootPath()+'/img/footlogo_01.png"></img>'
 +								'</a>'
 +				            '</li>'
