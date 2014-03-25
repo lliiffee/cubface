@@ -100,7 +100,7 @@ $(document).ready(function(){
 +		                            '</li>'
 +		                            '<li><a href="'+getRootPath()+'/aftersale/index.html" title="售后服务">售后服务</a></li>'
 +		                            '<li><a href="'+getRootPath()+'/contactus/index.html" title="招聘信息">招聘信息</a></li>'
-+		                            '<li class="sub-menu"><a href="#" title="图片社">在线商城<span></span></a>'
++		                            '<li class="sub-menu"><a href="#" title="在线商城">在线商城<span></span></a>'
 +		                            	'<ul class="submenu">'
 +		                                    '<li><a href="'+getRootPath()+'/mall/index.html" title="在线商城">在线商城</a></li>'
 +		                                    '<li><a href="http://cubface.tmall.com" title="CUBFACE天猫旗舰店">CUBFACE天猫旗舰店</a></li>'
