@@ -124,7 +124,7 @@ $(document).ready(function(){
 +				            '</li>'
 +				            '<li>'
 +				                '<a target="_blank" title="Four Corners中文网新浪微博" href="http://weibo.com/4corners">'
-+				                    '<img alt="Four Corners中文网新浪微博" style="height: 25px;" src="'+getRootPath()+'/img/weibo_icon.jpg"></img>'
++				                    '<img alt="Four Corners中文网新浪微博" style="height: 25px;" src="'+getRootPath()+'/img/weibo_icon.png"></img>'
 +				                '</a>'
 +				            '</li>'
 +				            '<li>'

@@ -26,7 +26,7 @@
     <script src="../js/vendor/bootstrap.min.js"></script>
     <script src="../js/vendor/jquery.mobilemenu.js"></script>
     <script src="../js/common.js"></script>
-    <script src="../js/menu2.js"></script>
+     
     <script src="../js/tm-scripts.js"></script>
     <script src="../js/superfish.js"></script>
     <script src="../js/vendor/jquery.equalheights.js"></script>
@@ -35,15 +35,125 @@
     <!--[if (gt IE 9)|!(IE)]><!-->
     <script src="../js/vendor/jquery.mobile.customized.min.js"></script>
 	<!--<![endif]-->
-
+<script>
+	   $(document).ready(function(){
+			jQuery('.sf-menu').mobileMenu();
+		});
+	</script>
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
+  	<div id="panel">
+                <div class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner" id="advanced">
+                     <span class="trigger"><strong></strong><em></em></span>
+                          <div class="container">
+                               <div class="navbar-header">
+                                    <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+										 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span>
+										 <span class="icon-bar"></span><span class="icon-bar"></span>
+                                    </button>
+                               </div>
+                               <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+                               <ul class="nav navbar-nav">
+                                    <li class="home"><a href="/index.html" class="glyphicon glyphicon-home"></a></li>
+                                    <li class="divider-vertical"></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="关于我们">关于我们 <b class="caret"></b></a>
+                                         <ul class="dropdown-menu">
+                                              <li><a href="/aboutus/index.html" title="企业简介">企业简介</a></li>
+                                              <li><a href="/aboutus/history.html" title="发展历程">发展历程</a></li>
+                                              <li><a href="/aboutus/brand.html" title="品牌介绍">品牌介绍</a></li>
+                                              <li><a href="/aboutus/store.html" title="店铺分布">店铺分布</a></li>
+                                              <li><a href="/aboutus/team.html" title="团队介绍">团队介绍</a></li>
+                                         </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="合作范畴">合作范畴 <b class="caret"></b></a>
+                                         <ul class="dropdown-menu">
+                                              <li><a href="/cooperation/index.html" title="招商加盟">招商加盟</a></li>
+                                              <li><a href="/cooperation/independent.html" title="设计师加盟">设计师加盟</a></li>
+                                              <li><a href="/cooperation/international.html" title="品牌代理">品牌代理</a></li>
+                                         </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="产品展示">产品展示 <b class="caret"></b></a>
+                                         <ul class="dropdown-menu">
+                                              <li><a href="/collection/cindex.html" title="CUBFACE">CUBFACE</a></li>
+                                         </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="新闻中心">新闻中心 <b class="caret"></b></a>
+                                         <ul class="dropdown-menu">
+                                              <li><a href="/pressroom/index.html" title="新闻发布">新闻发布</a></li>
+                                              <li><a href="/pressroom/photogallery.html" title="图片社">图片社</a></li>
+                                              <li><a href="/pressroom/corpimage.html" title="企业形象">企业形象</a></li>
+                                              <li><a href="/pressroom/presscontact.html" title="新闻联系">新闻联系</a></li>
+                                         </ul>
+                                    </li>
+                                    <li><a href="/aftersale/index.html" title="售后服务">售后服务</a></li>
+                                    <li><a href="/contactus/index.html" title="招聘信息">招聘信息</a></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" title="在线商城">在线商城 <b class="caret"></b></a>
+                                         <ul class="dropdown-menu">
+                                              <li><a href="/mall/index.html" title="FC垂直网站">FC垂直网站</a></li>
+                                              <li><a target="_blank" href="http://cubface.tmall.com" title="CUBFACE天猫旗舰店">CUBFACE天猫旗舰店</a></li>
+                                         </ul>
+                                    </li>
+                               </ul>
+                           </nav>
+                       </div>
+                   </div>
+               </div>
   	<div class="container">
 
       <header id="sub_menu">
-		     
+		      <div class="container">
+  				<div class="row">
+		            <article class="col-lg-12 col-md-12 col-sm-12">
+		                <div class="menuBox clearfix">
+		                    <nav class="navbar navbar-default navbar-static-top tm_navbar clearfix" role="navigation">
+		                        <ul class="nav sf-menu clearfix">
+		                            <li class="active"><a href="/index.html" title="首页">首页</a>  
+		                            </li>
+		                            <li class="sub-menu"><a href="#" title="关于我们">关于我们<span></span></a>
+		                            	<ul class="submenu">
+		                                    <li><a href="/aboutus/index.html" title="企业简介">企业简介</a></li>
+		                                    <li><a href="/aboutus/history.html" title="发展历程">发展历程</a></li>
+		                                    <li><a href="/aboutus/brand.html" title="品牌介绍">品牌介绍 </a></li>
+		                                    <li><a href="/aboutus/store.html" title="店铺分布">店铺分布 </a></li>
+		                                    <li><a href="/aboutus/team.html" title="团队介绍">团队介绍 </a></li>
+		                               </ul>
+		                            </li>
+		                            <li class="sub-menu"><a href="#" title="合作范畴">合作范畴<span></span></a>
+		                            	<ul class="submenu">
+		                                    <li><a href="/cooperation/index.html" title="招商加盟">招商加盟</a></li>
+		                                    <li><a href="/cooperation/independent.html" title="设计师加盟">设计师加盟</a></li>
+		                                    <li><a href="/cooperation/international.html" title="品牌代理">品牌代理 </a></li>
+		                               </ul>
+		                            </li>
+		                            <li class="sub-menu"><a href="#" title="产品展示">产品展示<span></span></a>
+		                            	<ul class="submenu">
+		                                    <li><a href="/collection/cindex.html" title="CUBFACE">CUBFACE</a></li>
+		                               </ul>
+		                            </li>
+		                            <li class="sub-menu"><a href="#" title="新闻中心">新闻中心<span></span></a>
+		                            	<ul class="submenu">
+		                                    <li><a href="/pressroom/index.html" title="新闻发布">新闻发布</a></li>
+		                                    <li><a href="/pressroom/photogallery.html" title="图片社">图片社</a></li>
+		                                    <li><a href="/pressroom/corpimage.html" title="企业形象">企业形象 </a></li>
+		                                    <li><a href="/pressroom/presscontact.html" title="新闻联系">新闻联系 </a></li>
+		                               </ul>
+		                            </li>
+		                            <li><a href="/aftersale/index.html" title="售后服务">售后服务</a></li>
+		                            <li><a href="/contactus/index.html" title="招聘信息">招聘信息</a></li>
+		                            <li class="sub-menu"><a href="#" title="在线商城">在线商城<span></span></a>
+		                            	<ul class="submenu">
+		                                    <li><a href="/mall/index.html" title="在线商城">在线商城</a></li>
+		                                    <li><a href="http://cubface.tmall.com" title="CUBFACE天猫旗舰店">CUBFACE天猫旗舰店</a></li>
+		                               </ul>
+		                            </li>
+		                        </ul>
+		                    </nav>
+		                </div>
+		            </article>
+		        </div>
+		    </div>
 	  </header>
       <ul class="nav nav-tabs">
 		  <li><a href="index.html" title="招商加盟">招商加盟</a></li>
@@ -75,7 +185,36 @@
 	  <hr>
       <!--footer-->
       <footer id="footer_homepage">
-		    
+		    <div class="container">
+		        	<div class="row">
+		            <article class="col-lg-12 col-md-12 col-sm-12">
+		                <ul class="bc-social-buttons">
+				            <li>
+				            	<a target="_self" title="Four Corners企业简介" href="/aboutus/index.html">
+									<img alt="Four Corners企业简介" style="height: 59px;" src="/img/footlogo_01.png"></img>
+								</a>
+				            </li>
+				            <li>
+				                <a target="_blank" title="Four Corners中文网新浪微博" href="http://weibo.com/4corners">
+				                    <img alt="Four Corners中文网新浪微博" style="height: 25px;" src="/img/weibo_icon.png"></img>
+				                </a>
+				            </li>
+				            <li>
+				                <a target="_blank" title="Four Corners网易博客" href="http://four-corners.blog.163.com/">
+				                    <img alt="Four Corners网易博客" style="height: 25px;" src="/img/163net.png"></img>
+				                </a>
+				            </li>
+				        </ul>
+		                <p>&copy; Four Corners 2014<br>
+                       <a href="http://www.miitbeian.gov.cn"> 粤ICP备13008378号-1</a></p>
+		                <div>
+						    <a id="toTop" href="#" style="margin-right: -60px; right: 50%; display: block;">
+						        <span id="toTopHover" style="opacity: 0;"></span>
+						    </a>
+						</div>
+		            </article>
+		        </div>
+		    </div>
 	  </footer>
 
     </div> <!-- /container -->
